@@ -3,24 +3,16 @@ import time, os, array, datetime, configparser
 import yahoo_fin.stock_info as yahoo
 
 #So it reads .ini files now
-
 parser = configparser.ConfigParser()
-
-parser.read("config2.ini")
+parser.read("config.ini")
 
 client_id = parser['config']['clientID']
-
 stonk = parser['stocks']['stock1']
 stonk2 = parser['stocks']['stock2']
-
 
 #client_id = f.readline
 RPC = Presence(client_id) 
 RPC.connect() 
-
-#I'll fix it another day, I'm tired now.
-#stonk = "eth-cad"
-#stonk2  = "btc-cad"
 
 def price(stockName):
     return round(yahoo.get_live_price(stockName), 3)

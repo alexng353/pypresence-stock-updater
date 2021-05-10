@@ -2,13 +2,13 @@ from pypresence import Presence
 import time, os, array, datetime, configparser
 import yahoo_fin.stock_info as yahoo
 
-
 #config reader
 parser = configparser.ConfigParser()
 parser.read("config.ini")
 
 client_id = parser['config']['clientID']
 stonk = parser['stocks']['stock1']
+
 
 #connect to discord rich presence application
 RPC = Presence(client_id) 
