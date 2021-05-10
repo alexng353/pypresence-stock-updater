@@ -6,8 +6,7 @@
 
 Create a discord developer RPC application [here](https://discord.com/developers/applications) and copy your `client ID` from the `General Information` page.
 
-![discord dev portal](assets/dev\ portal.png)
-
+![discord dev portal](https://github.com/alexng353-new/pypresence-stock-updater/blob/main/assets/dev%20portal.png)
 
 
 Install pypresence:
