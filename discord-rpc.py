@@ -15,7 +15,7 @@ def price(stockName):
 
 def updater(stonkName):
     stock = price(stonkName)
-    RPC.update(state="Updating every second", details=f"1 {stonkName.upper()} = ${stock}" , large_image="stonk", small_image=f"{stonkName}", large_text=f"Displaying Live ${stonkName.upper()} price", small_text=f"${stonkName.upper()}", buttons=[{"label": f"{stonkName.upper()} on Yahoo", "url":f"https://ca.finance.yahoo.com/quote/{stonkName.upper()}/"}])
+    RPC.update(state="Updating every second", details=f"1 {stonkName.upper()} = ${stock}" , large_image="stonk", small_image=f"{stonkName}", large_text=f"Displaying Live ${stonkName.upper()} price", small_text=f"${stonkName.upper()}", buttons=[{"label": "Data from Yahoo Finance", "url":f"https://ca.finance.yahoo.com/quote/{stonkName.upper()}/"}{"label":"Updating every second","url":"https://github.com/alexng353-new/pypresence-stock-updater"}])
     
 while True:
     updater(stonk)
