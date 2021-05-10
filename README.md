@@ -23,7 +23,9 @@ clientID = 123456789012345678 ; (your application ID)
 stock1 = btc-usd
 ```
 
-Add the two images for the stocks you want to track, or use [this image](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/stonk.jpg) for single-rpc and an image of your choice. Make sure to name your custom the same as your Yahoo Finance Symbol (btc-usd, eth-usd). You can search for your stock's symbol at [Yahoo Finance](https://finance.yahoo.com).
+Add the two images for the stocks you want to track, or use [this image](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/stonk.jpg) for single-rpc and a custom image of your choice. Make sure to name your custom the same as your Yahoo Finance Symbol (btc-usd, eth-usd). You can search for your stock's symbol at [Yahoo Finance](https://finance.yahoo.com).
+
+I have included the images for [BTC-CAD](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/btc-cad.png) and [ETH-CAD](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/eth-cad.png)
 
 Stock Updater supports up to 2 stocks at a time, [single-rpc.py](https://github.com/alexng353-new/pypresence-stock-updater/blob/main/single-rpc.py) and [double-rpc.py](https://github.com/alexng353-new/pypresence-stock-updater/blob/main/double-rpc.py) respectively.
 
