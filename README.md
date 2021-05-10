@@ -2,6 +2,10 @@
 
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
+A python command line app that adds live stock quotes to your discord presence!
+
+![my presence]()
+
 ## Guide on use and installation:
 
 Create a discord developer RPC application [here](https://discord.com/developers/applications) and copy your `application ID` from the `General Information` page.
@@ -12,8 +16,7 @@ Create a discord developer RPC application [here](https://discord.com/developers
 Install pypresence:
 ### `pip install pypresence`
 
-Create and edit your `config.ini` in this format</br>
-Example:
+Create and edit your `config.ini` in this format:
 
 ```
 [config]
@@ -28,8 +31,6 @@ Add the two images for the stocks you want to track, or use [this image](https:/
 ![upload images](https://github.com/alexng353-new/pypresence-stock-updater/blob/main/assets/upload%20images.png)
 
 Make sure to name your custom the same as your Yahoo Finance Symbol (btc-usd, eth-usd). You can search for your stock's symbol at [Yahoo Finance](https://finance.yahoo.com).
-
-
 
 I have included the images for [BTC-CAD](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/btc-cad.png) and [ETH-CAD](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/eth-cad.png)
 
