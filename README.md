@@ -25,6 +25,8 @@ clientID = 123456789012345678 ; (your application ID)
 [stocks]
 stock1 = btc-usd
 ```
+### Important!
+Make sure your `config.ini` file is in the same directory as your rpc.py! Otherwise the app will not read the config properly.
 
 Add the two images for the stocks you want to track, or use [this image](https://github.com/alexng353-new/pypresence-stock-updater/tree/main/assets/stonk.jpg) for single-rpc and a custom image of your choice.
 
