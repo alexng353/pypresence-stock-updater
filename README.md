@@ -4,7 +4,7 @@
 
 A python command line app that adds live stock quotes to your discord presence!
 
-![my presence]()
+![my presence](https://github.com/alexng353-new/pypresence-stock-updater/blob/main/assets/example.png)
 
 ## Guide on use and installation:
 
