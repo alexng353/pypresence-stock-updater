@@ -2,7 +2,7 @@
 
 [![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
 
-##Guide on use and installation:
+## Guide on use and installation:
 
 Create a discord developer RPC application [here](https://discord.com/developers/applications) and copy your `application ID` from the `General Information` page.
 
